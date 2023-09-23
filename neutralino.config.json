@@ -1,0 +1,26 @@
+{
+  "applicationId": "js.neutralino.zero",
+  "version": "1.0.0",
+  "defaultMode": "window",
+  "documentRoot": "/www/",
+  "url": "/",
+  "enableServer": true,
+  "modes": {
+    "window": {
+      "title": "Project LCD - EGG",
+      "width": 600,
+      "height": 322,
+      "minWidth": 600,
+      "minHeight": 322,
+      "icon": "/www/icon.png"
+    }
+  },
+  "cli": {
+    "binaryName": "plcd-egg",
+    "resourcesPath": "/www/",
+    "extensionsPath": "/extensions/",
+    "clientLibrary": "/www/neutralino.js",
+    "binaryVersion": "4.10.0",
+    "clientVersion": "3.8.2"
+  }
+}
